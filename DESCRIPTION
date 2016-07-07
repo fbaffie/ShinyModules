@@ -1,0 +1,16 @@
+Package: ShinyModules
+Type: Package
+Title: Standard modules for Shiny Apps
+Version: 0.1
+Date: 2016-06-14
+Authors@R: person("Florian", "Kobierska Baffie", email = "fbaffie@gmail.com",
+  role = c("aut", "cre"))
+Description: A set of Shiny modules (both UI and server)
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Imports:
+  shiny,
+  leaflet
+Suggests:
+  testthat
