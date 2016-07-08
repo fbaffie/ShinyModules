@@ -11,6 +11,7 @@ LazyData: TRUE
 RoxygenNote: 5.0.1
 Imports:
   shiny,
-  leaflet
+  leaflet,
+  magrittr
 Suggests:
   testthat

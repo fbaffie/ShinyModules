@@ -5,6 +5,7 @@
 #' @return NA It plots a map
 #' @import shiny
 #' @export
+#'
 #' @examples to come
 mapModuleUI <- function(id) {
   # Create a namespace function using the provided id
@@ -21,8 +22,10 @@ mapModuleUI <- function(id) {
 #' @param NA No parameters yet
 #' @return NA It plots a map
 #' @importFrom leaflet leaflet
+#' @importFrom magrittr %>%
 #' @import shiny
 #' @export
+#'
 #' @examples to come
 mapModule <- function(input, output, session) {
 
